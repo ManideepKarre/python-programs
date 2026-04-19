@@ -1,58 +1,58 @@
 name = input("What's your name?")
 age= int(input("How olde are you"))
 
-print(f"Hello  {name} ardham ayithundhi ha")
+print(f"Hello  {name} ")
 print("you are " +str( age) + " years")
 print(f"you are {age} years old")
 if age >=18:
-    print("Cong you are major")
+    print("you are major")
 else:
-    print("pukka mi thammudu tho adukoku")
+    print("you are minor")
 
 while True:
     age= int(input("enter your age: "))
     if age>=20:
         print("you need to help you parents")
     elif age<=17:
-            print("Dengutha bittlu chusthy")
+            print("wait for one more year")
     else:
-        print("Kotukute thondharaga paduthadhi")
+        print("You cant go")
     
-    again = input("Malli adugu (yes/no): ")
+    again = input("Try again (yes/no): ")
     if again.lower()!="yes":
         break
 
 
-name= input("Ni Peru Chpu thammudu: ")
+name= input("Enter you name: ")
 
 while True:
      try:
-          age = int(input("ni age entha chpu nean chptha nuv bittlu chudal ha odh ha ani: "))
+          age = int(input("what is you age: "))
           break
      except ValueError:
-          print("Arey Lanjakoduka ni age chpu bey ")
-print(f"Thammudu {name} nachinav ra")
-print(f"ni modda {age} eni years nuchi undhi ")
+          print("What is your age man ")
+print(f"Hey {name} you are good to go")
+print(f"This is your {age}  ")
 
 if age>=19:
-     print("Bittlu chudali ani undhi ha?")
+     print("What are you looking for Major")
 else:
-     print("arey nik videos chupiyali ani undhi kani ni modda ki antha age ledhu")
+     print("You are just an Major")
 
 while True:
      try: 
-        age = int(input("Malli nik chance isthuna : "))
+        age = int(input("Try again: "))
      except ValueError:
-          print("Are malli ochinav ha?")
+          print(" You are good to go")
           continue
      if age>=20:
-          print("Are mi Amma Nanna ni avaru chuskutar ra?")
+          print("You are about become a vauled person ")
      elif age>19:
-          print("Are nik 2 minutes lo padipothadhi ra lite thisko")
+          print("Just wait for more one Year")
      else:
-          print("Po chudu po inka ")
-     again = input("Malli inko sari osthav ha? (yes/no): ")
+          print("You are good to go")
+     again = input("You can try once (yes/no): ")
      if again.lower()!="yes":
-          print("Dengey Kotukuney Lanjakoduka")
+          print("Nothing Else")
           break
 
